@@ -20,7 +20,7 @@ body {
 .instagram-wrapper {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-evenly;
     width: 60%;
     height: 100vh;
 }
@@ -29,20 +29,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 25vh;
 }
 
 .instagram-phone img {
+    width: auto;
     height: 50rem;
 }
-
 
 .instagram-continue {
     display: flex;
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
     flex-direction: column;
-    width: 100%;
+    width: 45vh;
     min-height: 34rem;
 }
 
@@ -71,6 +71,7 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    width: auto;
 }
 
 .profile-photo img {
