@@ -33,7 +33,6 @@ body {
 }
 
 .instagram-phone img {
-    width: auto;
     height: 50rem;
 }
 
@@ -71,7 +70,6 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
-    width: auto;
 }
 
 .profile-photo img {
@@ -116,6 +114,7 @@ body {
 }
 
 .app-download {
+    display: flex;
     height: 3rem;
     width: 10rem;
     background-size: cover;
@@ -157,5 +156,8 @@ body {
     
     .group {
         border: 1px solid transparent;
+    }
+    .get-the-app {
+        width: auto;
     }
 }
